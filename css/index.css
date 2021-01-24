@@ -184,3 +184,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About page styling begins here */
+
+.about-container {
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
