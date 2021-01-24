@@ -66,6 +66,11 @@ p {
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -193,3 +198,28 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.info-container .info-box {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.info-container .learn-more {
+    padding: 2% 6%;
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 0.5rem;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
